@@ -1,0 +1,4 @@
+hospital,training_records,local_validation_balanced_accuracy_trust,normalized_trust_weight
+Simulated Hospital 1,115,0.9583333333333333,0.24693317400153106
+Simulated Hospital 2,145,1.0,0.32488750303415054
+Simulated Hospital 3,195,0.98,0.4281793229643184

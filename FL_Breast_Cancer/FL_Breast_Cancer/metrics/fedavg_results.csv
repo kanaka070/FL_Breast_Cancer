@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,specificity,f1_score,roc_auc,true_negative,false_positive,false_negative,true_positive
+FedAvg,0.9736842105263158,1.0,0.9285714285714286,1.0,0.9629629629629629,0.998015873015873,72,0,3,39

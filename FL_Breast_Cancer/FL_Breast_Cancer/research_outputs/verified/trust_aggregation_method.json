@@ -1,0 +1,8 @@
+{
+  "trust_score": "client-local holdout balanced accuracy from a stratified 75/25 split",
+  "aggregation_formula": "alpha_i = n_i * trust_i / sum_j(n_j * trust_j)",
+  "parameter_aggregation": "global_coefficients = sum_i(alpha_i * local_coefficients_i); global_intercept = sum_i(alpha_i * local_intercept_i)",
+  "preprocessing": "one StandardScaler fit only on the training partition; identical coordinate system for all clients",
+  "validation_use": "per-client trust holdouts are separate subsets of training records; the fixed WDBC test partition is not used to choose weights",
+  "privacy_note": "local trust scores and model coefficients are not differentially private"
+}

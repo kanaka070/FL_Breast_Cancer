@@ -1,0 +1,21 @@
+{
+  "executed_at_utc": "2026-10-16T01:10:14.459402+00:00",
+  "python_version": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "seed": 42,
+  "dataset": "UCI WDBC local data/wdbc.data",
+  "dataset_sha256": "d606af411f3e5be8a317a5a8b652b425aaf0ff38ca683d5327ffff94c3695f4a",
+  "outputs": [
+    "cross_validation_folds.csv",
+    "cross_validation_summary.csv",
+    "federated_cross_validation_folds.csv",
+    "federated_cross_validation_summary.csv",
+    "trust_weights.csv",
+    "trust_aggregation_test_metrics.csv",
+    "trust_aggregation_method.json",
+    "iid_noniid_results.csv",
+    "iid_noniid_training_history.csv"
+  ],
+  "baseline_models_and_historical_metrics_overwritten": false,
+  "federated_cv_folds": 50,
+  "held_out_test_evaluated_in_cv": false
+}
